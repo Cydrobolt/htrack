@@ -1,4 +1,4 @@
 htrack
 ======
 
-Track your visitors.
+A simple PHP user analytics app. 
