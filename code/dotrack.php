@@ -9,4 +9,5 @@ $query = "INSERT INTO info (ip,ua,referer,date,debug,fwr)
 VALUES ('$ip','$ua','$ref','$date','sent','Normal Visitor')" or print('<!--ERROR DATABASE DOWN-->');
 //fwr for future XSS/injection protection functions
 $mysqli->query($query);
+$mysqli-close();
 ?>
