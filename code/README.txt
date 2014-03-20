@@ -1,1 +1,1 @@
-WILL BE WRITTEN, UNDER PLANNING.
+Project currently inactive.
