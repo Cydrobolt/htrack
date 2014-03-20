@@ -6,7 +6,7 @@ $query = "SELECT ip FROM blacklist WHERE ip='{$IP}'";
 $result = mysqli_query($cxn,$query);
 $row = mysqli_fetch_assoc($result);
 if($row){
-        header("location:/Ptrack/denied.php");
+        header("location:../denied.php");
         mysqli_free_result($result);
     }
     else{
